@@ -1,9 +1,13 @@
 .surprise {
     height: 100vh;
-    width: 100vw;
-    background-image: url('/public/giphy.gif');
+    display: block;
+    background: url('https://media1.giphy.com/media/7T200DTPdx31e/giphy.gif?cid=ecf05e47t5c2fc9pz0zihfox1aenqjr19p82lyvb7tlybf5u&rid=giphy.gif&ct=g') no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
-    color: blue;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(50px);
 }
