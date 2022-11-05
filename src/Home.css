@@ -1,0 +1,11 @@
+.homeboi {
+    background: url("https://media1.giphy.com/media/JdCz7YXOZAURq/giphy.gif?cid=ecf05e47fne4rchwh1t5pmfuwdtaa5zkbl01dz2ipt36fmz2&rid=giphy.gif&ct=g");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.boom {
+    width: 100vw;
+    height: 100vh;
+}
