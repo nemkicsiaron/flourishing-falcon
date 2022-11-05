@@ -1,5 +1,7 @@
 import Surprise from './Surprise';
-import { Route, Router, Routes } from 'react-router-dom';
+import Home from './Home';
+import PageNotFound from './PageNotFound'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -14,6 +16,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
