@@ -9,14 +9,15 @@ const Surprise = () => {
 
     speech.lang = 'ja-JN';
     speech.text = secret;
-    speech.pitch = Math.random() * 1.7;
-    speech.rate = Math.random() * 8.5;
+    speech.pitch = Math.random() * 1.99;
+    speech.rate = Math.random() * 5.5 + 1;
+    speech.voice = voices[Math.floor(Math.random() * voices.length)]
     speech.volume = 1;
-
 
     const pop = () => {
         setGlassed(false)
         window.speechSynthesis.speak(speech);
+        console.log(speech.pitch, speech.rate, speech.voice)
     }
 
     return(<div className="surprise">
